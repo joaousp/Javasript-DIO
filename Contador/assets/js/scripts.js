@@ -25,7 +25,7 @@ document.getElementById("subtrair").addEventListener("click", function() {
         currentNumberWrapper.innerHTML=-10;
         currentNumber=-10;
     }else{
-        if (currentNumber<=0)  mudar_vermelho();
+        if (currentNumber<0)  mudar_vermelho();
         currentNumberWrapper.innerHTML=currentNumber;
     }
 
