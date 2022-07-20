@@ -33,3 +33,7 @@ button {
     text-align: center;
 }
 
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
