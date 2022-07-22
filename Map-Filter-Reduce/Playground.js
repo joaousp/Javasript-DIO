@@ -45,6 +45,9 @@ function reduceArray(){
 }
 
 
+let jeleva=[4,6,8,10,12,14,16];
+
+
 function reduceArrayT(numeros,disponivel){
    
 
@@ -54,6 +57,6 @@ function reduceArrayT(numeros,disponivel){
      
 }
 
-saldo=30;
-console.log(reduceArrayT(numeros,saldo))
+saldo=100;
+console.log(reduceArrayT(jeleva,saldo))
 
